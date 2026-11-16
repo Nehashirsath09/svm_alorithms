@@ -22,9 +22,9 @@ FEATURES = ["Age", "Gender", "Region", "Occupation", "Income"]
 # during training: {numeric_code: "Label shown to user"}
 # ----------------------------------------------------------------------
 GENDER_OPTIONS = {0: "Female", 1: "Male"}
-REGION_OPTIONS = {0: "Region 0", 1: "Region 1", 2: "Region 2", 3: "Region 3"}
+REGION_OPTIONS = { "EAST", : "WEST", : "NORTH", : "SOUTH"}
 OCCUPATION_OPTIONS = {
-    0: "Occupation 0", 1: "Occupation 1", 2: "Occupation 2", 3: "Occupation 3",
+     "STUDENT", : "GOVERMENT JOB", : "IT SECTOR", : "OWN BUSINESS",
 }
 
 PAGE = """
